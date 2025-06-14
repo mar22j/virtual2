@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Virtual</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<!-- Este es el Encabezado -->
+    <header>
+        <h1> Mariuxi Deyalit Alarcon Aviles</h1>
+        <p>Aprendiendo hoy para transformar la informacion del mañana.</p>
+        <figure>
+            <img src="/image/aa3838b134f5a987c2fd1868eea90ca1_1728854536356_0.webp.jpg" alt="foto de Deyalit" width="150" height="150">
+            <figcaption>foto personal</figcaption>
+        </figure>
+    </header>
+<!-- Este es la Barra de navegacion -->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Datos sobre mi..... </a></li>
+            <li><a href="#habilidades">Mis habilidades</a></li>
+            <li><a href="#multimedia">Video Personal</a></li>
+            <li><a href="#Formulario">Contactos</a></li>
+             
+        </ul>
+    </nav>
+<!-- este es el contenido principal --> 
+    <main>
+        <section id="sobre-mi">
+            <h2>Descripción Personal</h2>
+            <p>Me considero una persona de tez trigreña y cabello corto, color cafe oscuro,tengo una estatura promedio 1,62, esa estatura esta perfecta eh,  ojos cafes claro, me encanta la musica asi mismo el pasar tiempo de calidad con las persona que quiero,
+                <mark>soy asocial,</mark> me adapto a cualquier entorno pero siempre que me hagan sentir comoda ahi. 
+                <br>
+                <strong>¿Trabajas?</strong> <em>Si, ayudo a mi padre en su trabajo.</em> 
+            </p>
+        </section>
+
+        <section id="logros">
+            <h2>Mis Logros</h2>
+            <ul>
+                <li>Terminar colegio</li>
+                <li>Ganar campeonatos de ciclismo</li>
+                <li>Pasar dos semestre sin repetir materias</li>
+                <li>Entender programacion</li>
+            </ul>
+
+            <h2>Mis Intereses</h2>
+            <ul>
+                <li>Programas avanzados</li>
+                <li>Una vida adulta establemente economica</li>
+                <li>Tener un trabajo que me guste</li>
+                <li>Viajar sin ver precios</li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades y Debilidades</h2>
+            <table border="1">
+                <thead>
+                    <tr><th>Mis Habilidades</th><th>Mis Debilidades</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Entender rapido</td>
+                        <td>Distraida</td>
+                    </tr>
+                    <tr>
+                        <td>Creatividad</td>
+                        <td>No puntualidad</td>
+                    </tr>
+                    <tr>
+                        <td>Responsable </td>
+                        <td>Procastinacion</td>
+                    </tr>
+                    <tr>
+                        <td>Tolerancia a la presion</td>
+                        <td>Ser Olvidadiza</td>
+                    </tr>
+                    <tr>
+                        <td>Buena en idiomas</td>
+                        <td>Falta de habilidad numerica</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr><th colspan="2"> Dey hace lo que le gusta</th></tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="multimedia">
+            <article>
+                <h3> Video de Presentacion</h3> 
+                <video src="/image/2025-05-13-170837711.mp4" autoplay loop controls></video>
+            </article>
+        </section>
+       <section id="Formulario">
+    <h2>Contacto</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required minlength="2" maxlength="50"><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" required min="18" max="99"><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required minlength="10" maxlength="300"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+  </form>
+
+    </main>
+<!-- este es el pie de paguina --> 
+    <footer>
+        <p>&copy; 2025 Mariuxi Alarcon- Todos los derechos reservados.</p>
+
+    </footer>
+</body>
+</html>
